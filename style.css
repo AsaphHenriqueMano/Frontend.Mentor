@@ -1,0 +1,49 @@
+body {
+    background-repeat: no-repeat;
+    background-color: hsl(212, 45%, 89%);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+    padding: 0px;
+    
+}
+
+.cartao {
+    width: 400px;
+    height: 620px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.cartao .qrcode img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+}
+
+.cartao .textprincipal {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cartao .textsecundario {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color:  hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+}
